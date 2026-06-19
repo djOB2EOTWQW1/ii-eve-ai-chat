@@ -1,0 +1,17 @@
+{
+  "name": "AI Chat",
+  "description": "Sidebar AI chat / Intelligence page. Extracted from ii-eve as a sidebar-left extension page.",
+  "version": "1.0.0",
+  "author": "djOB2EOTWQW1",
+  "icon": "neurology",
+  "contributes": {
+    "sidebarLeftPages": [
+      {
+        "identifier": "ai-chat",
+        "title": "Intelligence",
+        "icon": "neurology",
+        "component": "src/AiChat.qml"
+      }
+    ]
+  }
+}
