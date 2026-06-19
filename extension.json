@@ -4,6 +4,16 @@
   "version": "1.0.0",
   "author": "djOB2EOTWQW1",
   "icon": "neurology",
+  "configDefaults": {
+    "localOnly": false
+  },
+  "configSchema": {
+    "localOnly": {
+      "type": "bool",
+      "label": "Local only (disallow online models)",
+      "default": false
+    }
+  },
   "contributes": {
     "sidebarLeftPages": [
       {
